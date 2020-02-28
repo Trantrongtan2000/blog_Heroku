@@ -39,4 +39,4 @@ var server = http.createServer(function(request, response) {
   var absPath = "./" + filePath;
   serverWorking(response, absPath);
 });
-var port_number = server.listen(process.env.PORT || 3000);
+
